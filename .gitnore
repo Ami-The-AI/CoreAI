@@ -1,0 +1,40 @@
+
+# Logs and debug files
+*.log
+debug.log
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# System files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets
+.env
+config.json
+
+# Large files & data dumps
+*.pcap
+*.csv
+*.sqlite
+*.db
+
+# Virtual environments
+venv/
+.env/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore node_modules (if using JavaScript somewhere)
+node_modules/
+
+# Ignore build/output directories
+build/
+dist/
