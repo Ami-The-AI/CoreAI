@@ -1,22 +1,7 @@
 🔥 Ami 🤩🐐 – The FOSS AI Revolution
 
-from docx import Document
-
-
-
-# Create a new Word document
-
-doc = Document()
-
-doc.add_heading('Ami Project README', level=1)
-
-
-
 # Section 1: Project Overview
 
-doc.add_heading('1. Project Overview', level=2)
-
-doc.add_paragraph(
 
     "What is Ami?\n"
 
@@ -38,9 +23,6 @@ doc.add_paragraph(
 
 # Section 2: Project Status
 
-doc.add_heading('2. Project Status', level=2)
-
-doc.add_paragraph(
 
     "Currently in Private Development (Proprietary License)\n"
 
@@ -56,9 +38,7 @@ doc.add_paragraph(
 
 # Section 3: AI Assistant Information
 
-doc.add_heading('3. AI Assistant Information', level=2)
 
-doc.add_paragraph(
 
     "Meet Judi Blume (AI Assistant):\n"
 
@@ -76,13 +56,22 @@ doc.add_paragraph(
 
 
 
+# CoreAI  
+The root directory containing Ami's core components and memory structures.
 
+### 📂 Folder Structure:  
+- `MemoryStructure/` - Manages memory recall and milestones.  
+  - `LongTerm/` - Stores important events and milestones.  
+    - `Milestones/` - Tracks significant milestones in Ami’s development.  
+      - `.keep` (Placeholder file for version control)  
+  - `ShortTerm/` - Temporary and recent interactions.  
+- `AI_Development/` - Codes, repositories, and experiment logs.  
+
+---
 
 # Section 4: Project Structure
 
-doc.add_heading('4. Project Structure', level=2)
 
-doc.add_paragraph(
 
     "Directory Structure Example:\n"
 
@@ -106,9 +95,7 @@ doc.add_paragraph(
 
 # Section 5: Roadmap & Milestones
 
-doc.add_heading('5. Roadmap & Milestones', level=2)
 
-doc.add_paragraph(
 
     "Phase 1: Core Repository Setup (Complete)\n"
 
@@ -123,9 +110,6 @@ doc.add_paragraph(
 
 # Section 6: License
 
-doc.add_heading('6. License', level=2)
-
-doc.add_paragraph(
 
     "This project is currently under a Proprietary License. Future versions may be licensed under GNU GPL or MIT."
 
@@ -135,9 +119,7 @@ doc.add_paragraph(
 
 # Section 7: Resources & Links
 
-doc.add_heading('7. Resources & Links', level=2)
 
-doc.add_paragraph(
 
     "GitHub Organization: https://github.com/IamAmy\n"
 
@@ -151,9 +133,6 @@ doc.add_paragraph(
 
 # Section 8: Signature & Branding
 
-doc.add_heading('8. Signature & Branding', level=2)
-
-doc.add_paragraph(
 
     "Ami should always be formatted as:\n"
 
@@ -171,9 +150,6 @@ doc.add_paragraph(
 
 # Section 9: Notes from the Creator
 
-doc.add_heading('9. Notes from the Creator', level=2)
-
-doc.add_paragraph(
 
     "Ami is more than a project—she’s a masterpiece in the making. "
 
